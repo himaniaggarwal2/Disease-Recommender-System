@@ -1,13 +1,17 @@
 # Disease-recommender System
-This is a disease recommender system that I have created with the minimalist dataset I got from Kaggle.Here we had 3 datasets namely for disease symptoms, precautions and description.We combined the 3 for our ease to work with data and created Final_dataset.
+This is a Disease Recommender System that I have created with the minimalist dataset taken from Kaggle.Here we had 3 datasets namely for disease symptoms, precautions and description of the respective diseases.We created a final dataset named mySddf by removing all duplicates and containing all the features required for working with the given dataset and the model we want to create. Then processing of the dataset is done on the basis of 
+* NLP (Natural Language Processing)
+* SVC(Support Vector Machine)
+* OneVsRest
+* Scikit Learn
 
-You can clone this into your system.
+
 
 # Getting Started
 
 1. Fork [this](https://github.com/himaniaggarwal2/disease-recommender.git) repository.
 2. Clone this forked repository in your local system by the following commands:
-> git clone https://github.com/<your-github-username>/disease-recommender.git
+> git clone https://github.com/__your-github-username__/disease-recommender.git
 
 You can find the above link by opening this in your github account and copy the url that is being showed in the Address bar u will notice the two in the system.
 
@@ -51,21 +55,22 @@ Commit to the local repository
 # Pre-Requisites 
 Pre-Requisites to run this project on your System are 
 
--Python 3
+* Python 3
 
--Anaconda 
+* Anaconda 
 
--Jupyter Notebook Installed in your system
+* Jupyter Notebook Installed in your system
 
     Jupyter notebook through your terminal is lighter option for your system.
 
 (MAC OS)
->brew install jupyter
+```
+brew install jupyter
 
->pip3 install numpy
+pip3 install numpy
 
->pip3 install pandas
+pip3 install pandas
 
->pip3 install matplotlib
-
+pip3 install matplotlib
+```
 
