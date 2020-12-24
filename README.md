@@ -5,9 +5,11 @@ This is a Disease Recommender System that I have created with the minimalist dat
 * OneVsRest
 * Scikit Learn
 
+[![GitHub top language](https://img.shields.io/github/languages/top/himaniaggarwal2/disease-recommender?color=green&logo=python)](https://github.com/himaniaggarwal2/disease-recommender) [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/himaniaggarwal2/disease-recommender?logo=github)](https://github.com/himaniaggarwal2/disease-recommender) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/himaniaggarwal2/disease-recommender?color=bluevoilet&logo=github)](https://github.com/himaniaggarwal2/disease-recommender/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/himaniaggarwal2/disease-recommender?logo=github)](https://github.com/himaniaggarwal2/disease-recommender)
 
 
-# Getting Started
+---
+## Getting Started
 
 1. Fork [this](https://github.com/himaniaggarwal2/disease-recommender.git) repository.
 2. Clone this forked repository in your local system by the following commands:
@@ -51,8 +53,8 @@ Commit to the local repository
 
 8. Push your local commits to your local repository.
 >git push -u origin <your_branch_name>
-
-# Pre-Requisites 
+----
+## Pre-Requisites 
 Pre-Requisites to run this project on your System are 
 
 * Python 3
@@ -72,5 +74,26 @@ pip3 install numpy
 pip3 install pandas
 
 pip3 install matplotlib
+
+pip3 install streamlit
 ```
+---
+## About this Repository
+* ```Final Dataset.ipynb``` file stores the cleaning and feature engineering upon our datasets curated from our top 3 datasets.
+* ```chatbot_recommender.ipynb``` stored the model prepared and worked done.
+* ```healthbot.py``` creates streamlit web application that can be deployed from your local server.
+
+----
+# Deploying Web Application:
+* Run the below command on your server
+> streamlit run healthbot.py 
+
+---
+This project took a lot of hardwork so do give it a star and fork it in your system to know more about it ;)
+
+
+
+[![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://www.linkedin.com/in/himaniaggarwal2/) [![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/himaniaggarwal2/)
+
+
 
